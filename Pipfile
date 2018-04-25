@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dynet = "*"
+pandas = "*"
+scikit-learn = "*"
+jupyterlab = "*"
+xmltodict = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
